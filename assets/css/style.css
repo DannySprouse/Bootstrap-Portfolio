@@ -1,0 +1,110 @@
+/* when i added bootstrap to the original files, some of the page seemed to be responsive, but then other parts seemed to fall apart ... because this was to use boostrap (and the other assignment to use media queries) I was not sure how to fix these files since bootstrap didn't seem to be making them align */
+
+body {
+    background-image: url("../images/backgroundimage.jpg");
+}
+
+.container-fluid {
+    width: 100%;
+    background-repeat: repeat;
+    background-image: url("../images/backgroundimage.jpg");
+    padding: 0;
+}
+
+.master-container {
+    width: 100%;
+    background-image: url ("../images/headerBar.jpg");
+    background-repeat: none;
+}
+
+#ulNav {
+    padding-top: 25px;
+    margin-right: 125px;
+}
+
+.headerBar {
+    border-bottom: 6px solid #CCC;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px;
+    margin-left: 25px;
+}
+#nameDanny {
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 74px;
+    line-height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.mainSection {
+    background-color: #fff;
+    border: 6px solid #ddd;
+    color: #777;
+    width: 960px;
+}
+
+#imageFloat {
+    padding: 15px;
+    float: left;
+}
+
+img {
+    border-radius: 8px;
+    width: 275px;
+    height: 275px;
+}
+
+p {
+    margin: 14px 35px 35px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+a:link {
+    color: #ff6540;
+}
+
+a:visited {
+    color: #CC1E14;
+}
+
+a:hover {
+    color: #1474cc;
+}
+
+a:active {
+    color: #00fff2;
+}
+
+.barFade {
+    color: lightgrey;
+}
+
+#line {
+    background-color: #4aaaa5;
+    height: 7px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
